@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/umamahesh571/jenkins-nexus-integration-.git', branch: 'main'
+                git url: 'https://github.com/213narasimha/jenkins-nexus-integration-.git', branch: 'main'
             }
         }
 
