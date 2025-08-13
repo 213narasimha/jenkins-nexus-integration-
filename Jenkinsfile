@@ -4,7 +4,7 @@ pipeline {
     environment {
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin'
-        NEXUS_REPO_URL = 'http://65.2.131.209:8081/repository/maven-snapshot-1/'
+        NEXUS_REPO_URL = 'http://65.2.131.209:8081/repository/maven/'
         GROUP_ID = 'com.evolve'
         ARTIFACT_ID = 'evolve-technologies'
         VERSION = '1.0'
